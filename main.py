@@ -1,5 +1,29 @@
 from random import randint
+class Character:
+    def __init__(self, name):
+        self.name = name
 
+    def attack(self):
+
+       
+    def special(self):
+
+    def defence(self):
+
+       
+       
+
+class Mage(Character):
+    def __init__(self, mane):
+        self.mane = mane
+
+class Healer(Character):
+    def __init__(self, rune):
+        seld.rune = rune
+
+class Warrior(Character):
+    def __init__(self, power):
+        self.power = power
 
 def attack(char_name, char_class):
     if char_class == 'warrior':
